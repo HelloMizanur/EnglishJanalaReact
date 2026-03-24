@@ -2,7 +2,7 @@ import React from "react";
 import heroImgage from "../assets/hero.png";
 const Hero = () => {
   return (
-    <div className="bg-white text-black px-20 py-20 flex gap-10 justify-between items-center fixed ">
+    <div className="bg-white text-black px-20 py-10 flex gap-10 justify-between min-h-screen items-center fixed ">
       <div>
         <h3 className="text-3xl font-bold pb-10">
           <span className="text-[#00BCFF]">English</span> is Easy!!
